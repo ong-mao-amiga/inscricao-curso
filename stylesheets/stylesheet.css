@@ -13,6 +13,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	padding: 5%;
+	background-color: #EEE; /*Cor de fundo deve ser removida quando a imagem de fundo for escolhida*/
 }
 
 picture {
@@ -36,8 +37,8 @@ h1 {
   flex-grow: 0;
   flex-shrink: 0;
 	border-radius: 10px 10px 0 0;
-	border: 2px solid #000;
-	background-color: #000;
+	border: 2px solid #25457F;
+	background-color: #25457F;
 	color: #FFF;
 	font-family: 'Droid sans', sans-serif;
 	font-size: 28px;
@@ -46,10 +47,10 @@ h1 {
 main {
 	position: relative;
 	flex: 1;
-	background: #FFF;
-  box-shadow: 0 1px 2px #CCC;
+	background: rgba(255,255,255,0.5);
+  box-shadow: 0 1px 2px rgba(204,204,204,0.5);
 	border-radius: 0 0 10px 10px;
-	border-right: 2px solid #CCC;
-	border-left: 2px solid #CCC;
-	border-bottom: 2px solid #CCC;
+	border-right: 2px solid rgba(204,204,204,0.5);
+	border-left: 2px solid rgba(204,204,204,0.5);
+	border-bottom: 2px solid rgba(204,204,204,0.5);
 }
