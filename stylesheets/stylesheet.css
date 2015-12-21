@@ -64,8 +64,9 @@ main > #principal-info {
 }
 
 main > #principal-info > div {
+	margin-bottom: 5%;
 	width: 30%;
-	height: 24%;
+	height: 30%;
 	display: inline-block;
 	background-color: #25457F;
 	border-radius: 3px;
@@ -83,6 +84,14 @@ main > #principal-info > button {
   box-shadow: 0 0 2px rgba(0,0,0,0.5);
   font-family: 'Droid sans', sans-serif;
   font-size: 15px;
+}
+
+main > #principal-info > textarea {
+  height: 60%;
+  width: 90%;
+  border-radius: 3px;
+  padding: 5px;
+	resize: none;
 }
 
 main > #others-info {
