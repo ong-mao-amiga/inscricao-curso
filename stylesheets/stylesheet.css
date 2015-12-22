@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+label {
+	display: none;
+}
+
+textarea {
+	resize: none;
+	font-size: 14px;
+}
+
 body {
 	position: fixed;
 	top: 0;
@@ -56,6 +65,16 @@ main {
 	border-bottom: 2px solid rgba(204,204,204,0.5);
 }
 
+main > section {
+  padding-top: 15px;
+}
+
+main .input {
+	padding: 5px;
+	border: 1px solid #DDD;
+  box-shadow: 0 0 5px #DDD;
+}
+
 main > #principal-info {
 	position: absolute;
   width: 32%;
@@ -73,7 +92,7 @@ main > #principal-info > div {
 }
 
 main > #principal-info > button {
-	padding: 10px;
+	padding: 10px 15px;
   margin-left: 20px;
   display: inline-block;
   vertical-align: top;
@@ -90,8 +109,6 @@ main > #principal-info > textarea {
   height: 60%;
   width: 90%;
   border-radius: 3px;
-  padding: 5px;
-	resize: none;
 }
 
 main > #others-info {
@@ -99,4 +116,21 @@ main > #others-info {
 	left: 35%;
   width: 62%;
   height: 75%;
+}
+
+main > #others-info > input, main > #others-info > textarea {
+	margin-left: 10%;
+	width: 35%;
+	vertical-align: top;
+}
+
+main > #others-info > input {
+	margin-bottom: 6%;
+	padding-left: 2%;
+	height: 16%;
+  font-size: 16px;
+}
+
+main > #others-info > textarea {
+	height: 16%;
 }
