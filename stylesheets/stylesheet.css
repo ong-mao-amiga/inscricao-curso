@@ -14,14 +14,12 @@ textarea {
 }
 
 body {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
+	margin: auto;
+  margin-top: 50px;
+	width: 1024px;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	padding: 5%;
 	background-color: #EEE; /*Cor de fundo deve ser removida quando a imagem de fundo for escolhida*/
 }
 
@@ -56,6 +54,9 @@ h1 {
 main {
 	position: relative;
 	flex: 1;
+	flex-basis: 500px;
+  flex-grow: 0;
+  flex-shrink: 0;
 	padding: 4% 3%;
 	background: rgba(255,255,255,0.5);
   box-shadow: 0 1px 2px rgba(204,204,204,0.5);
@@ -75,19 +76,20 @@ main .input {
   box-shadow: 0 0 5px #DDD;
   background-color: #FFF;
   color: #666;
+  font-size: 12px;
 }
 
 main > #principal-info {
 	position: absolute;
   width: 32%;
-  height: 75%;
+  height: 375px;
   border-right: 2px solid #DDD;
 }
 
 main > #principal-info > div {
 	margin-bottom: 6%;
-	width: 30%;
-	height: 30%;
+	width: 120px;
+	height: 120px;
 	display: inline-block;
 	background-color: #25457F;
 	border-radius: 3px;
@@ -108,8 +110,8 @@ main > #principal-info > button {
 }
 
 main > #principal-info > textarea {
-  height: 60%;
-  width: 90%;
+  height: 215px;
+  width: 280px;
   border-radius: 3px;
 }
 
@@ -117,30 +119,29 @@ main > #others-info {
 	position: absolute;
 	left: 35%;
   width: 62%;
-  height: 75%;
+  height: 375px;
 }
 
-main > #others-info > input, main > #others-info > textarea, main > #others-info > select {
-	margin-left: 10%;
-	margin-bottom: 6%;
-	width: 35%;
-	height: 16%;
-	vertical-align: top;
-}
-
-main > #others-info > input {
-	padding-left: 2%;
-  font-size: 16px;
-}
-
+main > #others-info > input,
+main > #others-info > textarea,
 main > #others-info > select {
-  font-size: 14px;
+	margin-left: 10%;
+	margin-bottom: 35px;
+	width: 35%;
+	height: 63px;
+	vertical-align: top;
+	border-radius: 3px;
 }
 
-main 	> input {
+input::before {
+	content: "lalal";
+	height: 10%;
+}
+
+main > input {
 	padding: 10px 15px;
 	position: absolute;
-  top: 89%;
+  top: 440px;
   color: #FFF;
   background-color: #25457F;
   border: none;
