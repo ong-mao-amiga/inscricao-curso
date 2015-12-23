@@ -136,3 +136,16 @@ main > #others-info > input {
 main > #others-info > select {
   font-size: 14px;
 }
+
+main 	> input {
+	padding: 10px 15px;
+	position: absolute;
+  top: 89%;
+  color: #FFF;
+  background-color: #25457F;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 0 2px rgba(0,0,0,0.5);
+  font-family: 'Droid sans', sans-serif;
+  font-size: 15px;
+}
