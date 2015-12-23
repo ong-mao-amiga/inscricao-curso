@@ -73,6 +73,8 @@ main .input {
 	padding: 5px;
 	border: 1px solid #DDD;
   box-shadow: 0 0 5px #DDD;
+  background-color: #FFF;
+  color: #666;
 }
 
 main > #principal-info {
@@ -83,7 +85,7 @@ main > #principal-info {
 }
 
 main > #principal-info > div {
-	margin-bottom: 5%;
+	margin-bottom: 6%;
 	width: 30%;
 	height: 30%;
 	display: inline-block;
@@ -118,19 +120,19 @@ main > #others-info {
   height: 75%;
 }
 
-main > #others-info > input, main > #others-info > textarea {
+main > #others-info > input, main > #others-info > textarea, main > #others-info > select {
 	margin-left: 10%;
+	margin-bottom: 6%;
 	width: 35%;
+	height: 16%;
 	vertical-align: top;
 }
 
 main > #others-info > input {
-	margin-bottom: 6%;
 	padding-left: 2%;
-	height: 16%;
   font-size: 16px;
 }
 
-main > #others-info > textarea {
-	height: 16%;
+main > #others-info > select {
+  font-size: 14px;
 }
