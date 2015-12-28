@@ -133,11 +133,6 @@ main > #others-info > select {
 	border-radius: 3px;
 }
 
-input::before {
-	content: "lalal";
-	height: 10%;
-}
-
 main > input {
 	padding: 10px 15px;
 	position: absolute;
